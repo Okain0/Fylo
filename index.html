@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <div class="container">
+                <div class="header-container">
+                    <div class="nav-image">
+                        <img class="logo" src="./images/logo.svg" alt="#">
+                    </div>
+                    <div class="burger">
+
+                        <input class="check-menu" type="checkbox" id="check-menu">
+                        <label for="check-menu">
+
+                        </label>
+                        <div class="check-menu__text">Menu</div>
+                        <div class="check-menu__icon">
+                            <img class="check-menu__burger" src="./images/SVG/list.svg" alt="#">
+                            <img class="check-menu__close" src="./images/SVG/x-square.svg" alt="#">
+                        </div>
+
+                        <nav class="nav-burger">
+                            <a href="./index.html" class="nav__link active">Features</a>
+                            <a href="./team.html" class="nav__link">Team</a>
+                            <a href="./sign-in.html" class="nav__link">Sign In</a>
+                        </nav> <!-- /nav -->
+                    </div>
+                    <nav class="nav">
+                        <a href="./index.html" class="nav__link active">Features</a>
+                        <a href="./team.html" class="nav__link">Team</a>
+                        <a href="./sign-in.html" class="nav__link">Sign In</a>
+                    </nav> <!-- /nav -->
+                </div> <!-- /header-container -->
+            </div> <!-- /container -->
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="part-1">
+                    <div class="part-1__info">
+                        <div class="part-1__title title">All your files in one secure location, accessible anywhere.
+                        </div>
+
+                        <div class="part-1__text text">Fylo stores your most important files in one secure location.
+                            Access them wherever you need, share and collaborate with friends,
+                            family, and co-workers.</div>
+                        <div class="part-1__mail">
+                            <div class="part-1__input-block">
+                                <input class="part-1__input input" type="email" name="email"
+                                    placeholder="Enter your email...">
+                            </div>
+                            <div class="part-1__btn-block">
+                                <a href="#" class="part-1__btn btn">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img class="illustration-1" src="./images/illustration-1.svg" alt="#">
+                    </div>
+                </div> <!-- /part-1 -->
+            </div> <!-- /container-->
+
+            <div class="container__part-2 container">
+
+                <img class="bg-image__curve" src="./images/bg-curve-desktop.svg" alt="#">
+                <img class="bg-image__curve-mobile" src="./images/bg-curve-mobile.svg" alt="#">
+
+                <div class="part-2">
+                    <div class="part-2__info">
+                        <div class="part-2__title title">Stay productive, wherever you are</div>
+
+                        <div class="part-2__text text">Never let location be an issue when accessing your files. Fylo
+                            has you
+                            covered for all of your file storage needs.<br><br>
+
+                            Securely share files and folders with friends, family and colleagues for
+                            live collaboration. No email attachments required!</div>
+
+                        <div class="part-2__see-more">
+                            <a class="see-more__btn" href="">
+                                <span class="see-more__text">See how Fylo works</span>
+                                <img class="see-more__image" src="./images/icon-arrow.svg" alt="#">
+                            </a>
+                        </div>
+
+                        <div class="part-2__comment">
+
+                            <div class="comment__bg">
+                                <img class="bg__image" src="./images/icon-quotes.svg" alt="#">
+                            </div>
+
+                            <div class="comment__text"> Fylo has improved our team productivity by an order of
+                                magnitude.
+                                Since
+                                making the switch our team has become a well-oiled collaboration machine.</div>
+
+                            <div class="comment__avtor">
+
+                                <div class="avtor__avatar">
+                                    <img class="avtor__image" src="./images/avatar-testimonial.jpg" alt="#" height="50"
+                                        width="50">
+                                </div>
+
+                                <div class="avtor__data">
+                                    <div class="avtor__name">
+                                        Kyle Burton
+                                    </div>
+                                    <div class="avtor__position">
+                                        Founder & CEO, Huddle
+                                    </div>
+                                </div>
+
+                            </div> <!-- /comment__avtor -->
+
+                        </div> <!-- /part-2__comment -->
+                    </div> <!-- /part-2__info -->
+
+                    <div class="part-2__image image">
+                        <img class="illustration-2" src="./images/illustration-2.svg" alt="3">
+                    </div>
+
+                </div> <!-- /part-2 -->
+            </div> <!-- /container-->
+
+            <div class="container__support container">
+                <div class="support">
+
+                    <div class="support__info">
+                        <div class="support__title title">Get early access today</div>
+
+                        <div class="support__text text">
+                            It only takes a minute to sign up and our free starter tier is extremely generous.
+                            If you have any questions, our support team would be happy to help you.
+                        </div>
+                    </div>
+
+                    <div class="support__connection">
+                        <input class="support__input input" type="email" name="email" placeholder="email@example.com">
+                        <a href="#" class="connection__btn btn">Get Started For Free</a>
+                    </div>
+                </div> <!-- /support -->
+            </div> <!-- /container-->
+
+        </main>
+
+        <footer>
+            <div class="container__footer container">
+
+                <div class="footer">
+
+                    <div class="footer__image">
+                        <img class="footer__logo" src="./images/logofooter.svg" alt="#">
+                    </div>
+
+                    <div class="footer__info">
+                        <div class="footer-contact">
+                            <a class="contact__link" href="tel:+380671706553">
+                                <img class="contact__icon" src="./images/icon-phone.svg" alt="#" height="18" width="18">
+                                <div class="contact__phone">
+                                    Phone: +380-671-706-553
+                                </div>
+                            </a>
+
+                            <a class="contact__link" href="mailto:makslew@gmail.com">
+                                <img class="contact__icon" src="./images/icon-email.svg" alt="#" height="18" width="18">
+                                <div class="contact__mail">
+                                    E-mail: makslew@gmail.com
+                                </div>
+                            </a>
+
+                        </div>
+
+                        <div class="footer__about">
+                            <div class="about__column-1">
+
+                                <a class="column-1__iteam" href="#">About Us</a>
+                                <a class="column-1__iteam" href="#">Jobs</a>
+                                <a class="column-1__iteam" href="#">Press</a>
+                                <a class="column-1__iteam" href="#">Blog</a>
+
+
+                            </div>
+                            <div class="about__column-2">
+
+                                <a class="column-2__iteam" href="#">Contact Us</a>
+                                <a class="column-2__iteam" href="#">Terms</a>
+                                <a class="column-2__iteam" href="#">Privacy</a>
+
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="footer__social">
+                            <a class="social__link" href="https://www.instagram.com/_makslew/">
+                                <img class="social__icon" src="./images/SVG/facebook.svg" alt="#">
+                            </a>
+                            <a class="social__link" href="https://www.instagram.com/_makslew/">
+                                <img class="social__icon" src="./images/SVG/twitter.svg" alt="#">
+                            </a>
+                            <a class="social__link" href="https://www.instagram.com/_makslew/">
+                                <img class="social__icon" src="./images/SVG/instagram.svg" alt="#">
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div> <!-- /container -->
+
+            <!--
+			<p class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+			Coded by <a href="#">Your Name Here</a>.
+			</p> -->
+        </footer>
+
+    </div> <!-- /wrapper -->
+
+</body>
+
+</html>
